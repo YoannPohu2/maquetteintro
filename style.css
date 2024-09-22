@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.navbar{
+    background-image: url(./assets/grille.png);
+    background-repeat: url(./assets/grille.png);
+    display: flex;
+    padding: 20px;
+}
+
+.navbar .logo img{
+    margin-left: 200px;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+
+.menu-list{
+    display: flex;
+    list-style-type: none;
+}
+
+.menu-item {
+    position: relative;
+    margin: 0 20px;
+    text-decoration: none;
+}
+
+.border1{
+    border: 2px solid #f76900;
+}
+
+.border2{
+    border: 2px solid #fcd04a;
+}
+
+.border3{
+    border: 2px solid #b9d482;
+}
+
+.border4{
+    border: 2px solid #3d92c2;
+}
+.border5{
+    border: 2px solid #c078d0;
+}
+
+
+
+.submenu {
+    list-style-type: none;
+    padding: 0%;
+    text-decoration: none;
+}
+.menu-item a {
+    text-decoration: none;
+    color: #766f6f;
+    display: block;
+    padding: 5px;
+}
+
