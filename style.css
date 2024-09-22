@@ -1,61 +1,185 @@
-body{
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
-.navbar{
-    background-image: url(./assets/grille.png);
-    background-repeat: url(./assets/grille.png);
-    display: flex;
-    padding: 20px;
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 
-.navbar .logo img{
-    margin-left: 200px;
-    margin-right: 100px;
-    margin-top: 30px;
+/* ------------------- Navbar ------------------- */
+
+.navbar {
+  background-image: url(./assets/grille.png);
+  background-repeat: url(./assets/grille.png);
+  display: flex;
+  padding: 20px;
 }
 
-.menu-list{
-    display: flex;
-    list-style-type: none;
+.navbar .logo img {
+  margin-left: 200px;
+  margin-right: 100px;
+  margin-top: 30px;
+}
+
+.menu-list {
+  display: flex;
+  list-style-type: none;
 }
 
 .menu-item {
-    position: relative;
-    margin: 0 20px;
-    text-decoration: none;
+  position: relative;
+  margin: 0 20px;
+  text-decoration: none;
 }
-
-.border1{
-    border: 2px solid #f76900;
-}
-
-.border2{
-    border: 2px solid #fcd04a;
-}
-
-.border3{
-    border: 2px solid #b9d482;
-}
-
-.border4{
-    border: 2px solid #3d92c2;
-}
-.border5{
-    border: 2px solid #c078d0;
-}
-
-
 
 .submenu {
-    list-style-type: none;
-    padding: 0%;
-    text-decoration: none;
+  list-style-type: none;
+  padding: 0%;
+  text-decoration: none;
 }
+
 .menu-item a {
-    text-decoration: none;
-    color: #766f6f;
-    display: block;
-    padding: 5px;
+  text-decoration: none;
+  color: #766f6f;
+  display: block;
+  padding: 5px;
+}
+
+.border1 {
+  border: 2px solid #f76900;
+}
+
+.border2 {
+  border: 2px solid #fcd04a;
+}
+
+.border3 {
+  border: 2px solid #b9d482;
+}
+
+.border4 {
+  border: 2px solid #3d92c2;
+}
+
+.border5 {
+  border: 2px solid #c078d0;
+}
+
+.ligne {
+  border: #f0f0f0 0.2px solid;
+  margin: 10px;
+}
+
+/* ------------------- main ------------------- */
+
+.video {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  width: 100%;
+  margin: 20px;
+}
+
+.ligne2 {
+  border: #f0f0f0 0.2px solid;
+  margin-top: 100px;
+}
+
+.texte {
+  background-image: url(./assets/grille.png);
+  background-repeat: url(./assets/grille.png);
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin: 10px;
+  color: #766f6f;
+}
+
+.ligne3 {
+  border: #f0f0f0 0.2px solid;
+}
+
+.events {
+  display: flex;
+  margin: 10px;
+}
+
+/* ------------------- golf ------------------- */
+.golf {
+  border: 0.2px solid #766f6f;
+  width: 222px;
+  height: 400px;
+  margin: 20px 20px;
+  margin-left: 300px;
+}
+
+.golf .titre h1 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #f76900;
+}
+
+.golf .date p {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.golf .description p {
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* ------------------- accrobranche ------------------- */
+
+.accrobranche {
+  width: 230px;
+  height: 250px;
+  margin: 20px;
+}
+
+.accrobranche .titre h1 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #f76900;
+} 
+
+/* ------------------- Fast-food ------------------- */
+
+.fastfood{
+  width: 230px;
+  height: 250px;
+}
+
+.fastfood .titre h1 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #f76900;
+} 
+
+/* ------------------- commentaires ------------------- */
+
+.commentaire {
+  margin: 20px;
+  width: 480px;
+  height: 400px;
+}
+
+.commentaire .titre h1 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #f76900;
+}
+
+.photos {
+  display: flex;
+  margin: 10px 20px;
+}
+
+.image img {
+  margin: 10px;
+}
+
+.photos2 {
+  display: flex;
+  margin: 10px 20px;
 }
 
