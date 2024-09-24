@@ -129,7 +129,7 @@ body {
   width: 240px;
   height: 400px;
   margin: 20px 20px;
-  margin-left: 300px;
+  margin-left: 250px;
 }
 
 .golf .titre h1 {
@@ -190,18 +190,6 @@ body {
   text-decoration: none;
 }
 
-/* ------------------- Fast-food ------------------- */
-
-/* .fastfood{
-  width: 230px;
-  height: 250px;
-}
-
-.fastfood .titre h1 {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
-  color: #f76900;
-}  */
 
 /* ------------------- commentaires ------------------- */
 
@@ -261,17 +249,34 @@ body {
 }
 
 .Nous-contacter {
-  margin-left: 250px;
+  margin-left: 220px;
 }
 
 .dernier-billet{
-  margin-left: 50px;
+  margin-left: 80px;
 }
 
 .dernier-commentaire{
-  margin-left: 50px;
+  margin-left: 80px;
 }
 
 .blablaland{
-  margin-left: 50px;
+  margin-left: 80px;
+}
+
+/* ------------------- footer2 ------------------- */
+
+.ligne4 {
+  border: #f0f0f0 0.2px solid;
+}
+.footer2{
+  display: flex;
+}
+
+.information{
+  margin-left: 280px;
+}
+
+.reseau{
+  margin-left: 500px;
 }
